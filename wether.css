@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Fira+Sans+Condensed:wght@500&family=Lato:ital@1&family=Metrophobic&family=Monomaniac+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;1,6..12,400&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto+Flex:wght@100;200&family=Roboto:ital,wght@1,300&family=Tangerine:wght@700&family=Titillium+Web:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    ;
+
+}
+
+body{
+background-image:url(blossom.jpg);
+/* background-repeat: no-repeat; */
+   /* background-size: cover; */
+   background-position: center; 
+   background-attachment: fixed;
+
+}
+
+.container {
+  
+    width: 450px;
+  margin: auto;
+    /* background-color: red; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 7%;
+    padding: 40px; 
+    backdrop-filter: blur(50px);
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-top: 8%;
+
+}
+
+.search-box {
+    width: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 0;
+    /* background-color: aliceblue; */
+
+}
+.search-box input::placeholder{
+    font-size: 20px;
+}
+
+button {
+    margin: -3px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: azure;
+}
+
+.search-box button img {
+    padding: 0px;
+    margin: -7px;
+  width: 18px;
+   
+  
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img{
+    color: aquamarine;
+}
+
+
+/* ============================ media query ====================== */
+
+
+@media screen and (max-width: 768px) {
+    body{
+     width: 100%;
+     overflow-x: hidden
+    };
+
+    .container{
+        width: 100%;
+        margin-top: 20% !important;
+    /* padding-top: 25px; */
+      
+    }
+
+    .search-box{
+        /* margin-left: -10px; */
+        width: 100%;
+    }
+
+    .col-xl-6{
+        width: 100%;
+    }
+
+
+    .img-fluid{
+        margin: 10px;
+    }
+    h1,h2{
+        margin: 10px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icons{
+        margin-left: 10px;
+    }
+}
