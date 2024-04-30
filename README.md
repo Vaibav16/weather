@@ -1,1 +1,1 @@
-# weather
+Collage Project Weather detection
